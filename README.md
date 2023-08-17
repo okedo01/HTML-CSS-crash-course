@@ -1,2 +1,2 @@
 # HTML-CSS-crash-course
-learning basics of HTML and CSS
+Learning basics of HTML and CSS
