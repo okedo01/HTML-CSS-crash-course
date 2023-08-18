@@ -1,0 +1,85 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <title>Learning HTML Forms</title>
+  </head>
+  <body>
+    <form>
+      HTML Form
+      <div>
+        <br />
+        <label for="username">enter username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="enter your username"
+          required
+        />
+        <br /><br />
+        <label for="email">enter email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="your email"
+          required
+        />
+        <br /><br />
+        <label for="password">enter your password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="password"
+          required
+        />
+        <br /><br />
+        comment:<br />
+        <textarea
+          rows="12"
+          cols="37"
+          name="comment"
+          placeholder="leave your comment here"
+          required
+        ></textarea>
+        <br /><br />
+      </div>
+      <br /><br />
+      <div>
+        <input type="radio" name="gender" value="male" required /> Male
+        <input type="radio" name="gender" value="Female" required /> Female
+        <input type="radio" name="gender" value="Other" required /> Other
+      </div>
+      <br /><br />
+
+      <div>
+        <input type="radio" name="age" value="0-20" id="option-1" required />
+        <label for="option-1"> 0-20 </label>
+        <input type="radio" name="age" value="21-40" id="option-2" required />
+        <label for="option-2"> 21-40 </label>
+        <input type="radio" name="age" value="41-50" id="option-3" required />
+        <label for="option-3"> 41-50 </label>
+        <input type="radio" name="age" value="51+" id="option-4" required />
+        <label for="option-4"> 51+ </label>
+      </div>
+      <br /><br />
+
+      <label for="question"> choose your favorite question: </label>
+      <select name="quetion" id="question">
+        <option value="q1">where and when have you heard about HTML?</option>
+        <option value="q2">
+          why do you think HTML is impotant language for web development?
+        </option>
+        <option value="q3">how can HTML tags be styled?</option>
+      </select>
+      <br /><br />
+
+      <label for="answer"> comment your answer here: </label>
+      <input type="text" name="answer" id="answer" required />
+      <br /><br />
+      <input type="submit" value="submit your form" />
+      <br /><br />
+    </form>
+  </body>
+</html>
