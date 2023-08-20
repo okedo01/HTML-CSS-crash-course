@@ -1,6 +1,17 @@
- 
+p.error {
+  color: #d41212;
+}
+
+div .error {
+  color: #f7f710;
+}
+
+.error.text {
+  border: 2px dotted #6e565a;
+}
+
 h {
-  color: orange;
+  color: #ffa500;
   background-color: slateblue;
   text-decoration: underline;
   font-size: 25px;
@@ -8,7 +19,7 @@ h {
   text-align: center;
 }
 p {
-  color: gray;
+  color: #1d1515;
   text-align: left;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 30px;
@@ -17,13 +28,13 @@ p {
   column-gap: 30px;
 }
 
-ul{
+ul {
   border-width: 4px;
   border-color: crimson;
   border-style: solid;
 }
 
-ol{
+ol {
   border-width: 4px;
   border-color: rgb(155, 170, 177);
   border-style: solid;
@@ -31,20 +42,32 @@ ol{
   border-left: 8px solid #2b0d13;
 }
 
-li{
+li {
   list-style-type: square;
   text-shadow: 2px 2px hwb(0 56% 29%);
 }
 
-div{
+/* .div1{
   display: inline;
   border: 2px solid #939997;
   margin: 20px;
   padding: 20px;
-}
+} */
 
-span{
+span {
   display: inline-block;
   margin: 20px;
   padding: 20px;
+}
+
+div p {
+  color: #776a6a;
+}
+
+a[href*="github"] {
+  background-color: #9696c2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f7f710;
 }
