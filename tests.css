@@ -1,5 +1,70 @@
-header h4 {
+header {
+  background-color: #bdb8b8;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+header h2 {
+  color: #6b6bb9;
+  border: 10px solid #ffffff;
+  padding: 2px 5px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.page h3 {
+  background-color: #1a1818;
+  color: white;
   position: absolute;
-  left: 30px;
-  bottom: 200px;
+  left: 20px;
+  top: 127%;
+  padding: 20px;
+}
+
+.page h3 span {
+  color: #6b6bb9;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.history p img {
+  text-align: center;
+}
+
+.list{
+  background-color: yellow;
+  padding: 7px;
+  margin: 1px;
+  width: 95%;
+  /* display: inline-block; */
+  font-size: 24px;
+  border-radius: 30px;
+  position: sticky;
+  top: 90px;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+nav li {
+  width: 25%;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 30px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+nav li a.join {
+  color: #ff0000;
 }
