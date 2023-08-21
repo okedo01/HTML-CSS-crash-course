@@ -28,10 +28,7 @@ header h2 {
 .page h3 {
   background-color: #1a1818;
   color: white;
-  position: absolute;
-  left: 20px;
-  top: 127%;
-  padding: 20px;
+  position: sticky;
 }
 
 .page h3 span {
@@ -114,6 +111,10 @@ main{
   box-sizing: border-box;
 }
 
+.origin{
+  text-decoration: underline;
+}
+
 article h3{
   color: red;
   font-size: 40px;
@@ -130,16 +131,19 @@ article p{
   box-sizing: border-box;
 }
 
+
 .hero_image img{
   margin-top: 90px;
   max-width: 100%;
+  width: max-content;
+  width: 100vw;
 
 }
 
 .join{
-  background: #a8999c;
+  background: #ffc0cb;
   text-align: center;
-  padding: 60px 20px;
+  padding: 19px 14px;
   color: grey;
 }
 
@@ -160,4 +164,44 @@ footer{
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+/* hover properties */
+nav li a:hover{
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.image li:hover{
+  position: relative;
+  top: -10px;
+  left: 12px;
+}
+
+form input:focus{
+  border: 4px dashed yellow;
+  outline: none;
+}
+
+form input:valid{
+  border: 4px solid green;
+}
+
+article p::first-line{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+section.join p::first-letter{
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+section.join p::selection{
+  background-color: white;
+  color: blue;
+}
+
+p::after{
+  content: '....';
 }
