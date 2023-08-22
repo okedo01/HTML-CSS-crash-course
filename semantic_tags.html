@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <meta name="viewport" content="width=device-width, initial scale=1.0" />
   <link rel="stylesheet" href="tests.css" />
   <head>
     <title>Semantic Tags</title>
   </head>
   <body>
-    <nav class="list">
+ 
+    <header>
+      <h2>Chris Brown Biography.</h2>
+    </header>
+
+    <section class="hero">
+      <img
+        src="img/hero.jpg"
+        alt="image of breezy"
+        class="hero_image"
+      />
+    </section>
+
+      <section class="page">
+        <h3>
+          Welcome to <span>Breezy Page</span>
+        </h3>
+      </section>
+
+  
+    <nav>
       <ul>
         <li>
           <a
             href="https://www.google.com/search?q=chris+brown+albums&sca"
-            class="join_2"
-            >ulbums</a
+            class="active"
+            >albums</a
           >
         </li>
         <li>
@@ -20,8 +41,7 @@
           >
         </li>
         <li>
-          <a href="https://wynk.in/music/artist/chris-brown/wa_5d339005"
-            >hit songs</a
+          <a href="https://wynk.in/music/artist/chris-brown/wa_5d339005">hit songs</a
           >
         </li>
         <li>
@@ -31,25 +51,11 @@
         </li>
       </ul>
     </nav>
-    <header>
-      <h2>Chris Brown Biography.</h2>
-    </header>
-    <section class="hero_image">
-      <img
-        src="img/chrisbrownofficial-20211030-0003.jpg"
-        alt="image of breezy"
-      />
 
-      <div class="page">
-        <h3>
-          welcome to <br />
-          <span>Breezy Page</span>
-        </h3>
-      </div>
-    </section>
+  
     <main>
       <article>
-        <h3 class="origin">Origin of Breezy</h3>
+        <h3>Origin of Breezy</h3>
         <br />
         <p>
           Christopher Maurice Brown was born on May 5, 1989, in the small town
@@ -66,7 +72,8 @@
           >
         </p>
       </article>
-      <ul class="image">
+
+      <ul class="images">
         <li>
           <img
             src="img/chrisbrownofficial-20220329-0005.jpg"
@@ -80,19 +87,24 @@
           />
         </li>
       </ul>
+
     </main>
+
+
     <section class="join">
-      <h4>Join Chris Club!</h4>
+      <h2>Join Chris Club!</h2>
       <p>
         When some people hear his name, the first thing they think of is his
         domestic violence case when he assaulted his then-girlfriend, Rhianna.
       </p>
       <form>
-        <input type="email" name="email" placeholder="enter emeil" required />
+        <input type="email" name="email" placeholder="Enter Email" required />
       </form>
     </section>
+
+
     <footer>
-      <p class="copyright">&copyright 2023 Okedo</p>
+      <p class="copyright">Developed by Okedo &copy; 2023</p>
     </footer>
   </body>
 </html>
